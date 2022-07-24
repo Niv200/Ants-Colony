@@ -27,7 +27,7 @@ public class Ant extends LivingEntity {
     private int id;
 
     private boolean done = false;
-    private int speed = 5;
+    private int speed = 2;
 
     public Ant(World world, Town town) {
         super(world, new Location(town.getLocation().getX(), town.getLocation().getY()));
